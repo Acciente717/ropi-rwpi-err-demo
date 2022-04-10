@@ -1,0 +1,9 @@
+[package]
+name = "demodemo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+panic-abort = "0.3"
+cortex-m = { version = "0.7", features = ["inline-asm"]}
+cortex-m-semihosting = { version = "0.5"}
