@@ -35,4 +35,5 @@ sudo ln -s \
 - To run the debug image, execute `make run-debug`. At the time of writing, the debug build *won't* print correctly.
 - To build the image in release mode, execute `make release`. The built image is `image-release.elf`.
 - To run the release image, execute `make run-release`. At the time of writing, the release build print correctly.
+- To get the disassembly, execute `make dump-debug` or `make dump-release`. The dumped disassembly is in `dump-debug.asm` or `dump-release.asm`. (Requires `arm-none-eabi-*` toolchain.)
 - To clean up, run `make clean`.
